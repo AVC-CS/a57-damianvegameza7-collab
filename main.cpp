@@ -8,7 +8,12 @@ int main()
 
 	cin >> n1 >> n2;
 	cin >> N;
+	cout << n1 <<" " << n2 << endl;
 
-	// TODO
-	// TODO
+	for(int i = 0; i <N-2; i++) {
+		sum = n1+ n2;
+		cout<< sum << endl;
+		n1 = n2;
+		n2 = sum;
+	}
 }
